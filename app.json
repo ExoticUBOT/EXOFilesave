@@ -7,7 +7,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/kocengmars/filesavers",
+  "repository": "https://github.com/ExoticUBOT/EXOFilesave",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Dapatkan di  @Botfather",

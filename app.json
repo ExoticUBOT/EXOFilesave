@@ -54,6 +54,26 @@
       "description": "Daftar user_id dari Admin, mereka hanya dapat membuat link",
       "value": "Contoh (1234567890 0987654321) ID ADMIN 1[Spasi]ID ADMIN 2",
       "required": false
+    },
+    "addons": [
+      {
+      "plan": "heroku-postgresql",
+        "options": {
+        "version": "12"
+        }
+      }
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ],
+    "formation": {
+      "worker": {
+      "quantity": 1,
+      "size": "free"
     }
+  }
+}
   }
 }

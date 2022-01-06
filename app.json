@@ -59,7 +59,7 @@
       {
       "plan": "heroku-postgresql",
         "options": {
-        "version": "12"
+          "version": "12"
         }
       }
     ],
@@ -70,10 +70,8 @@
     ],
     "formation": {
       "worker": {
-      "quantity": 1,
-      "size": "free"
+        "quantity": 1,
+        "size": "free"
     }
-  }
-}
   }
 }

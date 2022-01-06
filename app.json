@@ -38,7 +38,7 @@
       "value": "Hello {first}\n\nI Bot akan membantu kamu untuk menemukan File yang telah di ubah menjadi Link"
     },
     "FORCE_SUB_MESSAGE": {
-      "description": "Optional: Force Sub message of bot, use HTML parsemode format",
+      "description": "Optional: Force Subs Chat BOT Start",
       "value": "Hello {first}\n\n<b>Kamu WAJIB SUBS CHANNEL/GROUP untuk menggunakan BOT\n\nJadi Kumohon Join Channel</b>"
     },
     "ADMINS": {
